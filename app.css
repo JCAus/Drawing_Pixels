@@ -1,0 +1,94 @@
+.grid {
+    position: relative;
+    display: block;
+    
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    top: 0px;
+    left:18%;
+    height: 100%;
+    line-height: 8px;
+    width:80%;
+    border: none;
+    padding: 0px;
+}
+
+.colorBox {
+    position: relative;
+    display: block;
+    width: 190px;
+    margin-left: 20px;
+    top: 100px;
+    background-color: rgb(208, 224, 223);
+    padding:10px;
+    border-radius: 3px;
+}
+
+label{
+    font-weight: bold;
+}
+
+.pixel {
+    border: solid rgba(0, 0, 0, 0.04) 1px;
+    width: 8px;
+    margin: 0px;
+    display: inline-block;
+    height: 8px;
+    background-color: rgb(255, 255, 255);
+    padding:0%;
+    
+}
+
+.clear {
+    position: relative;
+    left: 58px;
+
+}
+
+body {
+    background-color: rgba(151, 146, 131, 0.54);
+    cursor: crosshair;
+}
+
+@media all and (max-width: 650px) {
+    .colorBox{
+        position:relative;
+        top:10px;
+        left:22%;
+        display: block;
+        width: 280px;
+        
+        top: 1px;
+        background-color: rgb(208, 224, 223);
+        padding-bottom:10px;
+        border-radius: 3px;
+    }
+
+    .grid{
+        display: block;
+        position: relative;
+        top: 200px;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        top: 0px;
+        
+        height: 1000px;
+        line-height: 8px;
+        width:80%;
+        border: none;
+        padding: 0px;  
+    }
+
+    .clear {
+        position: relative;
+        left: 14px;
+        bottom: 3px;
+    }
+
+    body {
+        
+        align-items: center;
+    }
+}
